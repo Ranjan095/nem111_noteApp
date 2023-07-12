@@ -1,0 +1,5 @@
+http://localhost:8080/user/create ; POST // for creating new user
+http://localhost:8080/user/login  ; POST // for login user
+http://localhost:8080/note  : GET // for get all notes of login user (header shorld be there)
+http://localhost:8080/note/update/NoteID  ; // for update note (header shorld be there)
+http://localhost:8080/note/delete/NoteID  ; // for delete note (header shorld be there)
